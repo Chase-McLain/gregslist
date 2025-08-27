@@ -1,4 +1,5 @@
 import { Car } from './models/Car.js'
+import { House } from './models/House.js'
 import { EventEmitter } from './utils/EventEmitter.js'
 import { createObservableProxy } from './utils/ObservableProxy.js'
 
@@ -6,6 +7,33 @@ class ObservableAppState extends EventEmitter {
 
   /**@type {import('./models/Example.js').Example[]} */
   examples = []
+
+
+  houses = [
+    new House({
+      address: '400 S Ratler Ave Boise ID',
+      size: 672,
+      bedrooms: 2,
+      bathrooms: 2,
+      year: 1872,
+
+    })
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   cars = [
     new Car({
