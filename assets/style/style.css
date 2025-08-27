@@ -1,0 +1,37 @@
+/* BASIC STYLES HERE */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+label {
+  display: block;
+}
+
+#pop-toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+
+.car-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.car-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.car-border {
+  border: inset 10px black;
+}
