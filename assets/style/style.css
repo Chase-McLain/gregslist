@@ -35,3 +35,19 @@ label {
 .car-border {
   border: inset 10px black;
 }
+
+.house-display {
+  border: inset 10px;
+}
+
+.house-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.house-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
