@@ -18,7 +18,7 @@ export class House {
   get houseTemplate() {
     return `
         <div class="col-md-6">
-          <div class="position-relative house-display style="border-color: ${this.color};">
+          <div class="position-relative house-display style="border-color:${this.color};">
             <img class="img-fluid house-img"
               src="${this.img}"
               alt="House picture">

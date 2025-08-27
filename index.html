@@ -29,8 +29,56 @@
 
     <!-- TODO houses stuff goes here -->
 
-    <section id="house-display" class="row container ">
 
+    <section id="house-form" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form onsubmit="">
+            <div>
+              <label for="House-Address">House Address</label>
+              <input id="House-Adress" type="text" minlength="5" maxlength="50" required name="address" class="w-100">
+            </div>
+            <div>
+              <label for="Year-Built">Year Built</label>
+              <input id="Year-Built" type="number" minlength="4" maxlength="4" required name="year" class="w-10">
+            </div>
+            <div>
+              <label for="House-Size">Square footage</label>
+              <input id="House-Size" type="number" minlength="1" maxlength="50" required name="size" class="w-10">
+            </div>
+            <div>
+              <label for="Bedrooms">Bedrooms</label>
+              <input id="Bedrooms" type="number" minlength="1" maxlength="3" required name="bedroom" class="w-10">
+            </div>
+            <div>
+              <label for="Bathrooms">Bathrooms</label>
+              <input id="Bathrooms" type="number" minlength="1" maxlength="3" required name="bathroom" class="w-10">
+            </div>
+            <div>
+              <label for="Description">Description</label>
+              <input id="Description" type="text" minlength="0" maxlength="300" required name="description"
+                class="w-100">
+            </div>
+            <div>
+              <label for="House-Img">Image URL of House</label>
+              <input id="House-Img" type="url" minlength="5" maxlength="300" required name="img" class="w-100">
+            </div>
+            <div>
+              <label for="House-Color">House Address</label>
+              <input id="House-Color" type="color" minlength="0" maxlength="100" required name="color" class="w-10">
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+    <section id="house-display" class="row container ">
       <!-- <section class="row">
         <div class="col-md-6">
           <div class="position-relative house-display">
@@ -50,23 +98,7 @@
           </div>
         </div>
       </section> -->
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- TODO add d-none to hide this junk -->
     <section id="cars-section" class="container">
