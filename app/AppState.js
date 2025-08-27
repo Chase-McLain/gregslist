@@ -16,22 +16,48 @@ class ObservableAppState extends EventEmitter {
       bedrooms: 2,
       bathrooms: 2,
       year: 1872,
+      price: 250000,
+      color: '#3b3849',
+      img: 'https://imgs.search.brave.com/zb0kP4M_t2r_nFr0AIxANOteNQmawRDi5IQtCeDrWeI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNzg0/NjI1OTcvcGhvdG8v/aG91c2Utd2l0aC1m/aXJlLWRhbWFnZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/LXlZbnU1TFZBZEhL/OUp1Zm9HQ1M2cTNE/RGRPS2JZdGg2UUR3/REtNREYxdz0',
+      description: 'Mint condition house that has been passed down through generations of master house keepers. NO LOW BALLING, I know what my house is worth.'
+    }),
 
+    new House({
+      address: '3232 Gumshoe Rd Caldwell ID',
+      size: 2000,
+      bedrooms: 4,
+      bathrooms: 3,
+      year: 2004,
+      price: 1200000,
+      color: '#14074aff',
+      img: 'https://imgs.search.brave.com/Y4u1cDz6OeHV6o0YI3eNv3fRC71yq26FSa1amqXmW_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTk3/MjQxNTg4NC9waG90/by9ydWlucy1hbmQt/cmVtYWlucy1vZi1h/LWJ1cm5lZC1kb3du/LWhvdXNlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1pOEdt/LXk5eGU0b2Fxc0pf/OWptR1NhRVhkTUlY/M3d3UVlwRjM0Q3BW/VGR3PQ',
+      description: 'Big house'
+    }),
+
+    new House({
+      address: '8923 N Grilltoe St Boise ID',
+      size: 1500,
+      bedrooms: 3,
+      bathrooms: 3,
+      year: 1977,
+      price: 500000,
+      color: '#bc1595ff',
+      img: 'https://imgs.search.brave.com/PwP4Bd0UoIdbXT4jl7dJ94VAEmTqjIvBwki3MyX1lgo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTQw/MjM0NzUvcGhvdG8v/ZmlyZS1kZXZhc3Rh/dGlvbi1vZi1hLWhv/bWUuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPVU3Q2hpYUFh/bzZvdDdZakpuS1pM/dUZkZnBTRHVFVjhf/YnozU3BxRk5XTEE9',
+      description: 'This immaculate mansion was built on a native American burial ground and has been awarded the most beautiful house in the west award 3 years in a row. This mansion has been deemed the pearl of Idaho by Times magazine in 2012.'
+    }),
+
+    new House({
+      address: '8455 Westpark St Boise ID',
+      size: 78242,
+      bedrooms: 0,
+      bathrooms: 2,
+      year: 1979,
+      price: 5792400,
+      color: '#110435ff',
+      img: 'https://images1.loopnet.com/i2/IlQuHutqKYAHQ5EdbCSjToKz3Zr1E26sY4NjU-_Fm1E/112/image.jpg',
+      description: 'This building was coded entirely in javascript.'
     })
   ]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
